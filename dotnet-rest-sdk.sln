@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-rest-sdk-1", "dotnet-rest-sdk\dotnet-rest-sdk-1.csproj", "{CA070287-A8C8-4619-931C-1D856990810D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA070287-A8C8-4619-931C-1D856990810D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA070287-A8C8-4619-931C-1D856990810D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA070287-A8C8-4619-931C-1D856990810D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA070287-A8C8-4619-931C-1D856990810D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2B04AAC-1C55-46E9-8C67-B74E87D90874}
+	EndGlobalSection
+EndGlobal
