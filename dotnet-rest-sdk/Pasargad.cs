@@ -88,7 +88,6 @@ namespace dotnet_rest_sdk
             rsa.FromXmlString(PrivateKey);
             byte[] signMain = rsa.SignData(Encoding.UTF8.GetBytes(inputData), new SHA1CryptoServiceProvider());
             string sign = Convert.ToBase64String(signMain);
-            int i=0;
             return sign;
         }
         private string mainMethod(string baseUrl, object inputForSign)
